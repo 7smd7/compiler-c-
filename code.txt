@@ -1,0 +1,41 @@
+int main() {
+    int a = 4;
+    int b;
+    float c;
+    double d;
+    string s;
+    cout << 4 << a ;
+    cin>>a>>b;
+    if (a==b) a=4;
+
+    int number;
+    cout << "Enter an integer: ";
+    cin >> number>>g;
+    if ( number > 0)
+    {   
+        if ( number > 0)
+            cout << "You entered a positive integer: " << number;
+        else if (number < 0)
+            cin >> c;
+        else
+            a=8;
+    }
+    else if (number < 0)
+    {
+        cout<<"You entered a negative integer: " << number;
+    }
+    else
+    {
+        cout << "You entered 0.";
+    }
+
+    while ( number > 0)
+    {
+        cout << "You entered a positive integer: " << number;
+    }
+    cout << "This line is always printed.";
+    while ( number > 0)
+        if (a==1)
+            cout<<"sd";
+    return 0;
+}
